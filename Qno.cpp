@@ -3,7 +3,7 @@ Autores: Nelson Cariqueo
 		 Diego Higuera
 		 Camila Vera
 
-Versión: 1.0
+Versión: 1.1
 
 Fecha: 17 de marzo de 2015
 
@@ -41,7 +41,7 @@ int esta(int numero, int q[]){ //Función que sirve para verificar si un número
 }
 
 void llenarVector(int qno[]){ //Función que llena el vector "qno" con número aleatorios
-	srand(time(NULL));
+	srand(time(NULL)*123456789);
 	int i;
 	int numero;
 	int isIn;
