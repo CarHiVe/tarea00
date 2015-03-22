@@ -7,3 +7,12 @@ Integrantes:
 	-Nelson Cariqueo Rojas
 	-Diego Higuera Fernández
 	-Camila Vera Castañeda
+	
+Para compilar el archivo en linux: 
+	1.- Abrir una terminal de linux
+	2.- Ubicar la ruta del archivo a compilar
+	3.- Escribir la siguiente rutina de comandos:
+
+		Para compilar el archivo: g++ Qno.cpp -o Qno
+		Para ejecutar y ver los numeros generados: ./Qno -g 
+		Para ver la informacion sobre los autores, y fecha y hora de compilación: ./Qno -v
